@@ -1,11 +1,16 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 
 import Button from './components/button/button';
 
-render(
-  <div>
-    <Button title={'default title'} />
-  </div>,
-  document.getElementById('app'),
-);
+const App = () => {
+  return (
+    <div>
+      <Button title={'default title'} />
+    </div>
+  );
+};
+
+const container = document.createElement('div');
+document.body.appendChild(container);
+ReactDOM.render(<App />, container);
