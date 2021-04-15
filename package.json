@@ -1,0 +1,23 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "The intention for this repo is to serve as a startpoint for any future react project. It should be build with best practises in mind, and support modern development processes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:w": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fstorm/react-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fstorm/react-starter/issues"
+  },
+  "homepage": "https://github.com/fstorm/react-starter#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
