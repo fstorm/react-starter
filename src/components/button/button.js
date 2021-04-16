@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './button.scss';
+
 const button = (props) => {
   return (
-    <div>
-      <button>{props.title}</button>
+    <div className="button--container">
+      <button className="button">{props.title}</button>
     </div>
   );
 };
