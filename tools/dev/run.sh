@@ -2,5 +2,5 @@ docker run \
     -it \
     -v `pwd`:/app \
     --rm \
-    -p3000:3000 \
+    -p 3000:3000 \
     react-starter

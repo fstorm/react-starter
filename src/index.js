@@ -6,7 +6,7 @@ import Button from './components/button/button';
 const App = () => {
   return (
     <div>
-      <Button title={'default title'} />
+      <Button title={'Button Title'} />
     </div>
   );
 };
